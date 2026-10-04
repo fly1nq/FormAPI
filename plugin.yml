@@ -1,5 +1,5 @@
 name: FormAPI
-main: jojoe77777\FormAPI\FormAPI
+main: FormAPI\FormAPI
 version: 2.1.1
-api: [4.0.0, 5.0.0]
-author: jojoe77777
+api: 3.0.0
+authors: ['jojoe77777', 'fly1nq']
