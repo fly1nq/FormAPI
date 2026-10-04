@@ -30,7 +30,7 @@ class CustomForm extends Form
         return $this->data['title'];
     }
 
-    public function processData(mixed &$data): void
+    protected function processData(mixed &$data): void
     {
         if ($data !== null && !is_array($data)) {
             throw new FormValidationException('Expected an array response, got ' . gettype($data));
