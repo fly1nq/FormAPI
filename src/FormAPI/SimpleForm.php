@@ -23,7 +23,7 @@ class SimpleForm extends Form
         $this->data['buttons'] = [];
     }
 
-    public function processData(mixed &$data): void
+    protected function processData(mixed &$data): void
     {
         if ($data !== null) {
             if (!is_int($data)) {
