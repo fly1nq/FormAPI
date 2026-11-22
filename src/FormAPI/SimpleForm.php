@@ -8,8 +8,8 @@ use pocketmine\form\FormValidationException;
 
 class SimpleForm extends Form
 {
-    public const IMAGE_TYPE_PATH = 0;
-    public const IMAGE_TYPE_URL = 1;
+    public const int IMAGE_TYPE_PATH = 0;
+    public const int IMAGE_TYPE_URL = 1;
 
     private array $labelMap = [];
 
